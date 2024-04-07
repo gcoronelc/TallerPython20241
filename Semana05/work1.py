@@ -185,16 +185,21 @@
 
 # --------------------------------------------------------
 
-def mate(n1, n2):
-    suma = n1 + n2
-    resta = n1 - n2
-    return suma, resta
+# def mate(n1, n2):
+#     suma = n1 + n2
+#     resta = n1 - n2
+#     return suma, resta
 
-print( mate(8,5) )
+# print( mate(8,5) )
 
-a,b = mate(8,5)
-print("suma:",a)
-print("resta:",b)
+# a,b = mate(8,5)
+# print("suma:",a)
+# print("resta:",b)
 
 
+n = 10
+def algo(x):
+    x += n
+    return n
 
+algo(67)
