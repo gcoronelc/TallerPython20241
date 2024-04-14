@@ -3,9 +3,9 @@
 productos = [
     {"nombre": "Laptop", "precio": 3674.89},
     {"nombre": "Teléfono", "precio": 1200},
-    {"nombre": "Tablet", "precio": 600},
+    {"nombre": "Tablet", "precio": 700},
     {"nombre": "TV", "precio": 300},
-    {"nombre": "Cámara", "precio": 700}
+    {"nombre": "Cámara", "precio": 600}
 ]
 
 presupuesto = 2000
