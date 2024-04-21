@@ -15,5 +15,6 @@ def multiplica(num1,num2):
     return rpta
 
 
-print("Hola, bienvenido a mi modulo.")
-print(f"Yo soy {autor}")
+if __name__ == "__main__":
+    print("Hola, bienvenido a mi modulo.")
+    print(f"Yo soy {autor}")
