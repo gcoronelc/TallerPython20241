@@ -6,15 +6,14 @@ class Raices:
         self.__a = a
         self.__b = b
         self.__c = c
+        self.__d = self.__b**2 - 4*self.__a * self.__c
 
     def raiz1(self):
-        d = self.__b**2 - 4*self.__a * self.__c
-        x1 = (-self.__b + math.sqrt(d)) / (2 * self.__a)
+        x1 = (-self.__b + math.sqrt(self.__d)) / (2 * self.__a)
         return x1
 
     def raiz2(self):
-        d = self.__b**2 - 4*self.__a * self.__c
-        x2 = (-self.__b - math.sqrt(d)) / (2 * self.__a)
+        x2 = (-self.__b - math.sqrt(self.__d)) / (2 * self.__a)
         return x2
     
 # Datos
